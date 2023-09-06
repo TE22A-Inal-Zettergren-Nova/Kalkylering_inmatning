@@ -10,12 +10,12 @@ public class App {
         System.out.println(tal_ett+"*"+tal_två+"="+(tal_ett*tal_två));
 
         System.out.println("Uppgift b");
-        System.out.print("Ange decimaltal 1: ");
+        System.out.print("Ange ett decimaltal: ");
         double deci_ett = input.nextDouble();
-        System.out.print("Ange decimaltal 2: ");
+        System.out.print("Ange ett till decimaltal: ");
         double deci_två = input.nextDouble();
 
-        System.out.print(deci_ett+"/"+deci_två+"="+(deci_ett/deci_två));
+        System.out.println(deci_ett+"/"+deci_två+"="+(deci_ett/deci_två));
 
         System.out.println("Uppgift c");
         System.out.print("Ange tal 1: ");
@@ -25,7 +25,13 @@ public class App {
 
         System.out.println(modulo_ett+"%"+modulo_två+"="+(modulo_ett%modulo_två));
 
+        System.out.println("Uppgift d");
+        System.out.print("Ange ett decimaltal: ");
+        double potens_ett = input.nextDouble();
+        System.out.print("Ange ett till decimaltal: ");
+        double potens_två = input.nextDouble();
 
+        System.out.println(potens_ett+"^"+potens_två+"="+(Math.pow(potens_ett, potens_två)));
         
     }
 }
